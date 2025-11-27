@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elite AI Credit Repair | Ask AI Anything About Your Credit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Elite AI Credit Repair uses super-advanced AI integration to give college-level answers to any credit question. Ask AI for free, then unlock full membership for letters, templates, dashboards, and advanced strategy."
+  />
+
+  <!-- Styles & Scripts -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ======================= HEADER / NAV ======================= -->
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <!-- Mascot / Logo -->
+        <img src="assets/elite_logo.png" alt="Elite AI Credit Repair Mascot" class="logo" />
+        <div class="brand-text">
+          <span class="brand-name">Elite <strong>AI</strong> Credit Repair</span>
+          <span class="brand-tagline">
+            <strong>AI-Powered Elite Credit Repair</strong>
+          </span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Ask AI</a>
+        <a href="membership.html" class="nav-link">Membership &amp; Snapshot</a>
+        <a href="contact-resources.html" class="nav-link">Contact &amp; Free Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>The Most Advanced Credit Repair on the Market</h1>
+        <p class="hero-subtitle">
+          Super-advanced AI integration in every step of your credit journey.
+          Ask anything about your credit and receive a clear, college-educated response,
+          every single time.
+        </p>
+        <p class="hero-note">
+          Our AI understands real laws, regulations, today’s and yesterday’s credit situations,
+          and how they apply to <em>your</em> story.
+        </p>
+        <a href="#ask-ai" class="btn-primary">Scroll to Ask AI</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= ASK AI SECTION ======================= -->
+  <main>
+    <section id="ask-ai" class="ask-ai-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Ask AI Anything About Your Credit</h2>
+          <p>
+            Type any question related to your credit reports, dispute letters, debt collectors,
+            public records, identity theft, law violations, or score improvement.
+            Our AI responds at a college-educated level, using real laws and real strategies.
+          </p>
+        </header>
+
+        <!-- ASK AI BOX -->
+        <div class="ask-ai-box">
+          <label for="askAiInput" class="ask-ai-label">
+            Describe your credit question or situation in your own words:
+          </label>
+          <textarea
+            id="askAiInput"
+            class="ask-ai-textarea"
+            placeholder="Example: I have a collection I don’t recognize that just showed up. What law protects me and what should my next step be?"
+          ></textarea>
+
+          <div class="ask-ai-actions">
+            <button id="askAiButton" class="btn-primary">
+              Ask AI
+            </button>
+            <p class="ask-ai-disclaimer">
+              <strong>Note:</strong> AI does not give legal advice. It explains your options,
+              rights, and strategies so you can make informed decisions.
+            </p>
+          </div>
+
+          <!-- AI RESPONSE AREA (script.js will fill this in) -->
+          <div id="askAiResponse" class="ask-ai-response" aria-live="polite">
+            <!-- The AI’s answer will appear here. -->
+          </div>
+        </div>
+
+        <!-- ======================= SUGGESTED QUESTIONS ======================= -->
+        <section class="suggested-questions">
+          <h3>Not sure what to ask? Try one of these:</h3>
+          <p>
+            Click one of the questions below to auto-fill the Ask AI box, then press
+            <strong>Ask AI</strong>.
+          </p>
+
+          <div class="question-grid">
+            <button class="question-chip" data-question="How do I properly write a dispute letter to get inaccurate accounts removed?">
+              How do I write a proper dispute letter?
+            </button>
+            <button class="question-chip" data-question="What is the correct mailing etiquette and what should be included in a complete dispute packet?">
+              What is proper mailing etiquette?
+            </button>
+            <button class="question-chip" data-question="How can I remove late payments that were reported incorrectly or unfairly?">
+              How do I fix unfair late payments?
+            </button>
+            <button class="question-chip" data-question="What are my rights under the Fair Credit Reporting Act when a bureau ignores or delays my dispute?">
+              What are my FCRA rights?
+            </button>
+            <button class="question-chip" data-question="How do I handle debt collectors calling me and what should I say in writing?">
+              How do I deal with debt collectors?
+            </button>
+            <button class="question-chip" data-question="What is identity theft and what are the exact steps I should take if I suspect it?">
+              What are the steps for identity theft?
+            </button>
+            <button class="question-chip" data-question="What is a reinvestigation or reinsertion, and how do I stop items from coming back on my report?">
+              What is reinsertion and how do I stop it?
+            </button>
+            <button class="question-chip" data-question="What is a public record on my credit report and how do I remove it legally?">
+              How do I remove public records?
+            </button>
+            <button class="question-chip" data-question="What is the statute of limitations on debt in my state and why does it matter?">
+              What is the statute of limitations?
+            </button>
+            <button class="question-chip" data-question="What is a 609 letter and when should I actually use one?">
+              What is a 609 letter?
+            </button>
+            <button class="question-chip" data-question="What is a 611 dispute and how is it different from a normal dispute?">
+              What is a 611 dispute?
+            </button>
+            <button class="question-chip" data-question="What are data furnishers and how can I use that knowledge to clean my reports?">
+              What is a data furnisher?
+            </button>
+            <button class="question-chip" data-question="What is a credit snapshot and how does it help me build a plan to repair my credit?">
+              What is a credit snapshot?
+            </button>
+            <button class="question-chip" data-question="What are the fastest legal ways to improve my score after cleaning up my reports?">
+              How can I raise my score fast?
+            </button>
+            <button class="question-chip" data-question="What should I track while doing credit repair so I always know what letters went out, what came back, and what to do next?">
+              What should I track during credit repair?
+            </button>
+          </div>
+        </section>
+
+        <!-- ======================= MEMBERSHIP TEASER ======================= -->
+        <section class="membership-teaser">
+          <h3>Want Full Step-by-Step Help?</h3>
+          <p>
+            Ask AI is free for everyone. If you want complete guidance, proper mailing etiquette,
+            full packet instructions, dispute templates, identity theft workflows, and a
+            dashboard to track your entire journey, unlock the
+            <strong>Elite AI Membership</strong>.
+          </p>
+          <a href="membership.html" class="btn-outline">See Membership &amp; Snapshot</a>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Elite AI Credit Repair. All rights reserved.</p>
+      <p class="footer-note">
+        Educational information only. Not legal, tax, or financial advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
